@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-  h2{
+h2{
     margin-bottom: 0px;
   }
-  p{
+p{
     margin-top: 0px;
   }
+#mydiv{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}

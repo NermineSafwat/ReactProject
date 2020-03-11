@@ -11,6 +11,7 @@ import FlightIcon from '@material-ui/icons/Flight';
 import DriveEtaIcon from '@material-ui/icons/DriveEta';
 import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
 import { makeStyles } from '@material-ui/core/styles';
+import Box from '@material-ui/core/Box';
 import './NavBarcss.css';
 const useStyles = makeStyles(theme => ({
 
@@ -25,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     },
     title: {
       flexGrow: 1,
-      fontWeight:600
+      fontWeight:650
     },
     ButtonIcon:{
       textTransform: 'none'
@@ -35,7 +36,7 @@ const useStyles = makeStyles(theme => ({
     const classes = useStyles();
   
     return (
-      <div>
+      <Box>
       <div className={classes.root}>
         <AppBar style={{ background: '#2E3B55' }}position="static">
           <Toolbar>
@@ -61,6 +62,6 @@ const useStyles = makeStyles(theme => ({
         </Toolbar>
       </AppBar>
       </div>
-</div> 
+</Box> 
     );
   }

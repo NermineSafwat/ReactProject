@@ -8,9 +8,8 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <div> 
+      
       <Schedule/>
-      </div>
       <Page/>
     </div>
   );
